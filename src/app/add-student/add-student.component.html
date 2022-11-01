@@ -1,0 +1,22 @@
+
+<div class="user">
+<form [formGroup] = "addStudentsFormGroup" (ngSubmit) = "addDetails()" >
+    <h3>Add Student Details</h3>
+    <div class="form-group">
+        <label>First name</label>
+        <input type="text" name="firstName" class="form-control"  formControlName="firstName">
+    </div>
+    <div class="form-group">
+        <label>Last name</label>
+        <input type="text" name="lastName"  class="form-control"  formControlName="lastName">
+    </div>
+    <div class="form-group">
+        <label>Email name</label>
+        <input type="text" name="emailName"  class="form-control"  formControlName="emailName">
+    </div>
+    
+    <div class="form-group">
+        <button value="submit" >Add</button>
+    </div>
+</form>
+</div>

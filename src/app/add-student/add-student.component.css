@@ -1,0 +1,37 @@
+
+ *{
+	box-sizing: border-box;
+}
+ .user{
+	padding: .75rem 1rem;
+	width: 400px;
+	margin: auto;
+	border-radius: .3rem;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.form-group{
+	margin: 0 0 1rem;
+}
+
+input:not([type=radio]), select{
+	display: block;
+	background: #eee;
+	border: 1px solid #c0c0c0;
+	border-radius: .3rem;
+	padding: 10px 5px;
+	width: 100%;
+}
+
+button{
+	border: none;
+	padding: 12px;
+	color: #fff;
+	background: dodgerblue;
+	border-radius: .3rem;
+	outline: none !important;
+	margin: auto;
+	display: block;
+}
+ 

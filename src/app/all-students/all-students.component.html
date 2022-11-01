@@ -1,0 +1,35 @@
+<div class="container">
+  
+
+    <div class="card">
+        <h3 class="text-center">Students Record</h3>
+<div class="card-body">
+<table class="table">
+    <thead><tr>
+        <th>Id </th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Email name</th>
+        <th>Action</th>
+    </tr></thead>
+    <tbody>
+        <tr *ngFor = "let student of Students">
+            <td>{{student.id}}</td>
+            <td>{{student.firstName}}</td>
+            <td>{{student.lastName}}</td>
+            <td>{{student.emailName}}</td>
+            
+            <td>
+                <button (click) = "update(student.id!)">Update</button>
+            </td>
+            <td>
+                <button (click) = "update(student.id!)">Delete</button>
+            </td>
+            </tr>
+    </tbody>
+
+</table>
+</div>
+    </div>
+
+</div>
